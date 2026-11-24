@@ -16,6 +16,24 @@ console.log(x.toPrecision(10));
 let y = 100
 console.log(y.toString());
 
+// isFinite ()
+// valueOf ()
+
+let m = "hello"
+console.log(isNaN(m));
+
+let u = "20"
+console.log(Number.isInteger(u));
+
+
+
+typecasy
+
+
+
+
+
+
 
 
 
