@@ -109,36 +109,42 @@
     
 // }
 
-let num1 = 10;
-let num2 = 5;
-let operator = "+"
+// let num1 = 10;
+// let num2 = 5;
+// let operator = "+"
 
-switch(operator){
-    case "+":
-        console.log(num1 + num2);
-        break;
+// switch(operator){
+//     case "+":
+//         console.log(num1 + num2);
+//         break;
 
-        case "-":
-            console.log(num1 - num2);
-            break;
+//         case "-":
+//             console.log(num1 - num2);
+//             break;
 
-            case "*":
-                console.log(num1 * num2);
-                break;
+//             case "*":
+//                 console.log(num1 * num2);
+//                 break;
 
-                case "/":
-                    console.log(num1 / num2);
-                    break;
+//                 case "/":
+//                     console.log(num1 / num2);
+//                     break;
 
-                    default :
-                    console.log("invalid");
-                    
-                    
-                
-            
-        
-        
-        
+//                     default :
+//                     console.log("invalid");
+                  
 
+// }
+
+
+let age = 17;
+
+if (age >= 18) {
+    if (age >= 60) {
+        console.log("Eligible, but senior citizen");
+    } else {
+        console.log("Eligible for driving licence");
+    }
+} else {
+    console.log("Not eligible");
 }
-
