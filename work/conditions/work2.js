@@ -38,3 +38,4 @@ else if (temperature >= 15){
 else {
     console.log("Cold");
 }
+
