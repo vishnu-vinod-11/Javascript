@@ -137,14 +137,24 @@
 // }
 
 
-let age = 17;
+// let age = 17;
 
-if (age >= 18) {
-    if (age >= 60) {
-        console.log("Eligible, but senior citizen");
-    } else {
-        console.log("Eligible for driving licence");
-    }
-} else {
-    console.log("Not eligible");
-}
+// if (age >= 18) {
+//     if (age >= 60) {
+//         console.log("Eligible, but senior citizen");
+//     } else {
+//         console.log("Eligible for driving licence");
+//     }
+// } else {
+//     console.log("Not eligible");
+// }
+
+// let i = 1000;
+// let result = (i>=1000) ? "free shipping" : (i<=1000) ? "charge is 100" :
+// console.log(result);
+
+let x = 10 
+let result = (x>0) ? "positive number" : (x<0) ? "negative number" : "zero"
+console.log(result);
+
+
